@@ -1,0 +1,37 @@
+body{background: gray;
+margin: 0;}
+div{
+    box-sizing: border-box;
+}
+
+header{
+    background: white;
+}
+
+header h1 {margin: 0;
+text-align: center;}
+
+div.post img{
+    width: 100% ;
+    height: 400px;
+}
+
+div.post{background: white; margin-top:10px ;}
+
+div.container{
+    margin: auto;
+    width: 40%;
+}
+
+div.post .post-header div:first-child{
+    display: inline-block;
+
+    width: 80%;
+}
+
+div.post .post-header div:last-child{
+    display: inline-block;
+    width: 15%;
+    text-align: right;
+   
+}
